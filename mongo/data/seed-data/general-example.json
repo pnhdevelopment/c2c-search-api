@@ -1,0 +1,76 @@
+{
+    "fundCode": "BUP",
+    "fundName": "Bupa HI Pty Ltd",
+    "policyName": "Platinum Visitors Cover Extras - Single",
+    "sisCode": "BUP/I21/NCVE10",
+    "monthlyPremium": "$142.55",
+    "states": ["ACT", "NSW"],
+    "type": "General",
+    "category": "One adult",
+    "generalInclusions": {
+        "dental": {
+            "general": {
+                "benefits": "H",
+                "limits": "M"
+            },
+            "major": {
+                "benefits": "H",
+                "limits": "M"
+            },
+            "endodontic": {
+                "benefits": "H",
+                "limits": "M"
+            },
+            "orthodontic": {
+                "benefits": "H",
+                "limits": "M"
+            }
+        },
+        "optical": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "nonPbs": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "physiotherapy": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "chiropractic": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "podiatry": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "psychology": {
+            "benefits": "H",
+            "limits": "L"
+        },
+        "acupuncture": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "naturopathy": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "massage": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "hearingAids": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "glucoseMonitor": {
+            "benefits": "H",
+            "limits": "M"
+        },
+        "preferredProvider": "Yes",
+        "ambulance": "h"
+    }
+}

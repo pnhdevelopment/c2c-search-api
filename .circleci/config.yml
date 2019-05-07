@@ -1,0 +1,28 @@
+version: 2
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Build Publish Policy DB
+          command: |-
+            BUILD_NUMBER=${CIRCLE_BUILD_NUM} ./build-publish-policy-db.sh
+      - run:
+          name: Build Publish Search API
+          command: |-
+            BUILD_NUMBER=${CIRCLE_BUILD_NUM} ./build-publish-searchapi.sh
+      - run:
+          name: Deploy to Demo Dev Environment
+          command: |-
+            BUILD_NUMBER=${CIRCLE_BUILD_NUM} ./deploy/deploy.sh
+          environment:
+            ENVIRONMENT: dev
+            DEPLOYMENT_ENVIRONMENT: demo-dev
+      - run:
+          name: Deploy to Demo Environment
+          command: |-
+            BUILD_NUMBER=${CIRCLE_BUILD_NUM} ./deploy/deploy.sh
+          environment:
+            ENVIRONMENT: dev
+            DEPLOYMENT_ENVIRONMENT: demo

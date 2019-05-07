@@ -1,0 +1,26 @@
+{
+  "name": "c2c-search-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "git@github.com:RHoKAustralia/c2c-search-api.git",
+  "author": "Prawana Perera <prawana.perera@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "express-healthcheck": "^0.1.0",
+    "graphiql": "^0.11.10",
+    "graphql": "^0.11.7",
+    "graphql-tools": "^2.13.0",
+    "lodash": "^4.17.4",
+    "mongodb": "^2.2.33",
+    "nodemon": "^1.14.12",
+    "qs": "^6.5.2",
+    "sleep": "^5.1.1"
+  }
+}

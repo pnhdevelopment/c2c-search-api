@@ -1,0 +1,38 @@
+{
+  "fundType": "Restricted",
+  "fundCode": "CBH",
+  "fundName": "CBHS Health Fund Limited",
+  "policyName": "Comprehensive Hospital 100",
+  "sisCode": "CBH/H1B/NAMD10",
+  "monthlyPremium": "171.04",
+  "states": ["ACT", "NSW"],
+  "type": "Hospital",
+  "category": "One adult",
+  "hospitalInclusions": {
+    "accomodation": "Private patient - Private or Public",
+    "cardiacAndRelatedService": "yes",
+    "cataractAndEyeLenseProcedures": "yes",
+    "pregnancyAndBirthServices": "yes",
+    "assistedReproductiveServices": "yes",
+    "jointReplacements": {
+      "hipKneeShoulderElbow": "yes",
+      "hipKneeOnly": "n/a",
+      "hipOnly": "n/a"
+    },
+    "dialisisChronicRenalFailure": "yes",
+    "gastricBandingRelatedServices": "yes",
+    "sterilsation": "yes",
+    "nonCosmeticPlasticSurgery": "yes",
+    "rehabilitation": "yes",
+    "psychatricServices": "yes",
+    "palliativeCare": "yes",
+    "otherNonMedicare": "no",
+    "excess": {
+      "perHospitalVisit": "n/a",
+      "maxPerPerson": "n/a",
+      "maxPerAnnum": "n/a"
+    },
+    "ambulance": "yes",
+    "coPayments": "L"
+  }
+}
